@@ -50,7 +50,6 @@ const Navbar = () => {
           className="navbar-connect"
           data-cursor="disable"
         >
-          subhankarsau51@gmail.com
         </a>
         <ul>
           <li>
