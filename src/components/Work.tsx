@@ -9,18 +9,21 @@ const projects = [
     category: "Full-Stack web application",
     tools: "HTML, CSS, JavaScript, PostgreSQL, Node.js, Express.js",
     image: "/images/todo.png",
+    link: "",
   },
   {
     title: "Grocery Shopping App",
     category: "Blink-it inspired app",
     tools: "HTML, CSS, JS, React, PostgreSQL, Node.js, Express.js",
     image: "/images/grocery.png",
+    link: "https://github.com/firecodersubhankarsahoo/BlinkIt--grocery-shooping-app",
   },
   {
     title: "Animal Care Website",
     category: "AI-based web app",
     tools: "HTML, CSS, JS, Flask, React, PostgreSQL, Node.js, Express.js",
     image: "/images/animal.png",
+    link: "https://github.com/firecodersubhankarsahoo/Hospet_animal_care",
   },
 ];
 
@@ -100,6 +103,13 @@ const Work = () => {
                           <span className="tools-label">Tools & Features</span>
                           <p>{project.tools}</p>
                         </div>
+                        {project.link && (
+                          <div className="carousel-link">
+                            <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link-btn" data-cursor="disable">
+                              View Project
+                            </a>
+                          </div>
+                        )}
                       </div>
                     </div>
                     <div className="carousel-image-wrapper">

@@ -114,6 +114,31 @@
   align-items: center;
 }
 
+.carousel-link {
+  margin-top: 25px;
+}
+
+.project-link-btn {
+  display: inline-block;
+  padding: 10px 24px;
+  background-color: transparent;
+  color: var(--accentColor);
+  border: 1px solid var(--accentColor);
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.project-link-btn:hover {
+  background-color: var(--accentColor);
+  color: #000;
+  box-shadow: 0 0 15px rgba(94, 234, 212, 0.4);
+}
+
 /* ── Navigation Arrows ── */
 .carousel-arrow {
   position: absolute;
