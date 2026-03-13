@@ -57,6 +57,27 @@
   font-weight: 300;
 }
 
+.cert-link {
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  opacity: 0.7;
+}
+
+.cert-card:hover .cert-link {
+  opacity: 1;
+  color: var(--accentColor);
+}
+
+.cert-link:hover {
+  text-shadow: 0 0 10px rgba(94, 234, 212, 0.5);
+  transform: translateX(5px);
+}
+
 @media only screen and (max-width: 1400px) {
   .certifications-section h2 {
     font-size: 50px;
